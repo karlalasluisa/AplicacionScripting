@@ -3,7 +3,6 @@
 El conjunto de scripts están diseñados para administrar usuarios en un sistema Linux mediante una interfaz gráfica utilizando Zenity. Los scripts permiten la creación de usuarios, la desactivación de usuarios a partir de una fecha específica y el envío de registros de estas operaciones por correo electrónico.
 
 ## Scripts
-
 ### 1. Menú (Menu)
 
 El primer y principal script `Menu` muestra un menú interactivo donde se pueden seleccionar las siguientes opciones:
@@ -29,5 +28,4 @@ El script `scriptEnviarMail` envía por correo electrónico el contenido del arc
 ## Uso
 1. Haz que todos los scripts sean ejecutables (`chmod +x script.sh`).
 2. Ejecuta solo el script `Menu` para acceder al menú principal y poder probar las opciones.
-
 Estos scripts son útiles para la gestión automatizada de usuarios en sistemas Linux, proporcionando una interfaz simple y efectiva para realizar operaciones comunes de administración de usuarios y registros de operaciones.
